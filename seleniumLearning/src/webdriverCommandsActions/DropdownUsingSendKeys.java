@@ -7,7 +7,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
+//import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -27,7 +27,7 @@ public class DropdownUsingSendKeys {
 		//city	//span[@class=' css-109onse-indicatorSeparator']/following::div[1]
 		System.out.println("city Button enabled is -->" +city.isEnabled());
 		state.click();
-		Actions action =new Actions(driver);;
+	//	Actions action =new Actions(driver);;
 		//WebElement stateNCR = driver.findElement(By.xpath("//div[@class=' css-1uccc91-singleValue' and contains(text(), 'NCR')]"));
 		System.out.println("state button clicked successfully");
 		/*action.moveToElement(stateNCR).click(stateNCR).build().perform();

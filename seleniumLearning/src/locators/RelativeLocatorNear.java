@@ -18,8 +18,8 @@ public class RelativeLocatorNear {
 	/*WebElement elementUsingAboveLoc =
 	driver.findElement(RelativeLocator.with(By.tagName("input")).above(knownWebele
 			ment)));*/
-	WebElement aboveField =	driver.findElement(By.RelativeLocator.with(By.tagName("input")).near(pass));
-	aboveField.sendKeys("acetest@farmersinsurance.com");
+	//WebElement aboveField =	driver.findElement(By.RelativeLocator.with(By.tagName("input")).near(pass));
+	//aboveField.sendKeys("acetest@farmersinsurance.com");
 	//Thread.sleep(3000);
 		driver.quit();
 		//https://dev.automationtesting.in/shadow-dom

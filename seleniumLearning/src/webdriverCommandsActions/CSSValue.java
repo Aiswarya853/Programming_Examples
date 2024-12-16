@@ -20,7 +20,7 @@ public class CSSValue {
 		WebElement submitButton = driver.findElement(By.xpath("//button[@id='submit']"));
 		System.out.println("Background colour--> " + submitButton.getCssValue("background-color"));
 		System.out.println("Tage name is -->" + submitButton.getTagName());
-		System.out.println("Attribute name is -->" +submitButton.getAttribute("id"));
+	//	System.out.println("Attribute name is -->" +submitButton.getAttribute("id"));
 		driver.close();
 	}
 
