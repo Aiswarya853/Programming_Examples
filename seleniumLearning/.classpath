@@ -154,5 +154,7 @@
 	<classpathentry kind="lib" path="C:/Users/Administrator/.eclipse/org.eclipse.oomph.p2/cache/https___testng.org_testng-p2-update-site_updatesites_7.10.1.r202404130807_artifacts.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Administrator/.eclipse/org.eclipse.oomph.p2/cache/https___testng.org_testng-p2-update-site_updatesites_7.10.2.r202404291553_artifacts.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Administrator/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

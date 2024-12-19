@@ -1,6 +1,6 @@
 package WebdriverTables;
 
-import java.util.List;
+
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -17,8 +17,8 @@ public class dynamicTables4 {
 		String url ="https://www.moneyworks4me.com/";
 		driver.navigate().to(url);
 		driver.manage().window().maximize();
-		//JavascriptExecutor js = (JavascriptExecutor)driver;
-		//js.executeScript("scroll(0,1000)");
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+		js.executeScript("scroll(0,1000)");
 		Actions action= new Actions(driver);
 		WebElement funds =driver.findElement(By.xpath("//li[@class='mega_menu_dropdown mega_menu_demo_2 has_dropdown' and @id ='mutualfundsmenu']"));
 		Thread.sleep(1000);
