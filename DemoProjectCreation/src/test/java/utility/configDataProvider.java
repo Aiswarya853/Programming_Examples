@@ -10,7 +10,7 @@ import java.util.Properties;
 public class configDataProvider {
 	Properties pro;
 	public  configDataProvider() {
-		File src = new File("C:/Users/Administrator/eclipse-workspace/DemoProjectCreation/Configuration/Config.properties");
+		File src = new File("C:/Users/Administrator/git/NewMavenProject/MavenProject/DemoProjectCreation/Configuration/Config.properties");
 		try {
 			FileInputStream readFile =new FileInputStream(src);
 			pro =new Properties();
@@ -24,7 +24,7 @@ public class configDataProvider {
 			}
 			
 	public  String getUrl() {
-				return pro.getProperty("testUrl");
+				return pro.getProperty("testurl");
 			}
 		
 	

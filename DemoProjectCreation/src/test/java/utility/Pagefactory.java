@@ -11,7 +11,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class Pagefactory {
 
-	public static WebDriver startApplication(WebDriver driver, String browserName, String appUrl) {
+	public static WebDriver startApplication(WebDriver driver, String browserName, String appurl) {
 	 if(browserName.equalsIgnoreCase("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:/Softwares/chromedriver-win64/chromedriver-win64/chromedriver.exe");
 			ChromeOptions opt = new ChromeOptions();
@@ -27,8 +27,8 @@ public class Pagefactory {
 		driver =new FirefoxDriver();}
 		else {System.out.println("We don't support the mentioned browser");}
 			
-			driver.navigate().to(appUrl);
-			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+			driver.navigate().to(appurl);
+			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(50));
 			driver.manage().window().maximize();
 			return driver;
 			
